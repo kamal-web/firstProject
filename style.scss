@@ -1,6 +1,5 @@
 	*{
 		box-sizing:border-box;
-		/*font-family: times, serif;*/
 		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	}
 	
@@ -12,11 +11,14 @@
   		color:black;
   		text-decoration:none;
   		
-	}
-	a{
+  		
+  		a{
 		text-decoration:none;
 		padding:10px;
+		}
+  		
 	}
+	
 	.content{
 		flex:100%;
 		justify-content:center;
@@ -26,48 +28,33 @@
 		text-align:center;
 		padding:30px;
 		
-	}
-	img{
+		img{
 		border-radius: 50%;
-		border: 3px solid #e0e0d1;
-		
-		
+		border: 3px solid #e0e0d1
+		}
 	}
+	
 	.footer{
 		display:flex;
 		flex-wrap: wrap;
 		flex-direction:row;
 		justify-content:center;
-	}
-	
-	.about{
-		width:50px;
 		
-		margin:5px;
-	}
-	
-	.links{
-		width:50px;
-		margin:5px;
-	}
-
-	ul{
-		list-style-type:none;
-		margin:0;
-		padding:0;
-		
-
-		
-	}
-	li{
-		flot:left;
-	}
-	i{
-		border-radius:2px;
-		background-color:black;
-		color:white;
+		ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			li{
+				flot:left;
+				i{
+					border-radius:2px;
+					background-color:black;
+					color:white;
 		
 	
+				}
+			}
+		}
 	}
 	
 	
